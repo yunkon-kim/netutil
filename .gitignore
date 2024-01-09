@@ -19,3 +19,12 @@
 
 # Go workspace file
 go.work
+
+# Config files
+!conf/
+conf/*
+!conf/template-*
+conf/credentials.conf
+
+# Binary file
+netutil
