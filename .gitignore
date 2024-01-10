@@ -20,11 +20,14 @@
 # Go workspace file
 go.work
 
+# Log files
+*.log
+
 # Config files
 !conf/
 conf/*
 !conf/template-*
 conf/credentials.conf
 
-# Binary file
-netutil
+# This proejct binary file
+examples/netutil/netutil
